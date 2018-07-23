@@ -94,14 +94,14 @@ class App extends Component {
               </p>
               <Carousel>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/1.PNG" responsive/>
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389368/wedding/1.png" responsive/>
                   <Carousel.Caption>
                     {/* <h3>Tunangan tgl sekian</h3> */}
                     {/* <p>fasdfasdfasdfasdfasdf</p> */}
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/2.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389347/wedding/2.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -146,7 +146,7 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/11.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389343/wedding/11.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -156,7 +156,7 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/13.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389352/wedding/13.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>

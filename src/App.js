@@ -106,42 +106,42 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/3.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389339/wedding/3.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/4.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389335/wedding/4.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/5.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389333/wedding/5.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/6.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389346/wedding/6.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/7.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/7.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/8.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/10.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/9.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389332/wedding/9.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/10.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/10.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -151,7 +151,7 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/12.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389346/wedding/12.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -161,12 +161,12 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/14.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389348/wedding/14.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="/img/15.JPG" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389348/wedding/15.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>

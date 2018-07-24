@@ -131,7 +131,7 @@ class App extends Component {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/10.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389333/wedding/8.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>

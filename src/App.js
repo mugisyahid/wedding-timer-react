@@ -94,79 +94,79 @@ class App extends Component {
               </p>
               <Carousel>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389368/wedding/1.png" responsive/>
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389368/wedding/1.png" responsive/>
                   <Carousel.Caption>
                     {/* <h3>Tunangan tgl sekian</h3> */}
                     {/* <p>fasdfasdfasdfasdfasdf</p> */}
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389347/wedding/2.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389347/wedding/2.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389339/wedding/3.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389339/wedding/3.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389335/wedding/4.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389335/wedding/4.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389333/wedding/5.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389333/wedding/5.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389346/wedding/6.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389346/wedding/6.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/7.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389342/wedding/7.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389333/wedding/8.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389333/wedding/8.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389332/wedding/9.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389332/wedding/9.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389342/wedding/10.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389342/wedding/10.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389343/wedding/11.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389343/wedding/11.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389346/wedding/12.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389346/wedding/12.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/v1532389352/wedding/13.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="http://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389352/wedding/13.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389348/wedding/14.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389348/wedding/14.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/v1532389348/wedding/15.jpg" responsive />
+                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389348/wedding/15.jpg" responsive />
                   <Carousel.Caption>
                   </Carousel.Caption>
                 </Carousel.Item>

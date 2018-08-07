@@ -94,7 +94,7 @@ class App extends Component {
                 "Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah." (QS. 51:49)
                   <br />
                   <br />
-                <p style={{ textAlign: 'center' }}>❤ Alhamdulillah, we are now officially husband and wife. ❤</p>
+                <p style={{ textAlign: 'center' }}>❤ Alhamdulillah, we are now husband and wife. ❤</p>
               </p>
 
               <Carousel>

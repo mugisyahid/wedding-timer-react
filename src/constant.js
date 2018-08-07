@@ -59,13 +59,13 @@ const img = [
         src: "https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389342/wedding/7.jpg",
         title: "July 2018",
         description: "Our wedding invitation card",
-        titleColor: "crimson",
-        descColor: "crimson"
+        titleColor: "maroon",
+        descColor: "maroon"
     },
     {
         src: "https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389333/wedding/8.jpg",
         title: "8 July 2018",
-        description: "when your choice is blessed by Allah",
+        description: "When your choice is blessed by Allah",
         titleColor: "white",
         descColor: "white"
     },

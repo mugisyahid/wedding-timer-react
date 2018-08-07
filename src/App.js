@@ -89,8 +89,10 @@ class App extends Component {
           <Row>
             <Jumbotron style={{ background: 'border-box' }}>
               <h2>Ligar Mugi Syahid & Isma Rachmawati</h2>
+              <br />
               <p>
                 "Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah." (QS. 51:49)
+                  <br />
                   <br />
                 <p style={{ textAlign: 'center' }}>❤ Alhamdulillah, we are now officially husband and wife. ❤</p>
               </p>
@@ -100,8 +102,8 @@ class App extends Component {
                   return <Carousel.Item>
                     <Image style={{ margin: '0 auto' }} src={prop.src} responsive />
                     <Carousel.Caption>
-                      <h3>{prop.title}</h3>
-                      <p>{prop.description}</p>
+                      <h3 style={{color: `${prop.titleColor}`}}>{prop.title}</h3>
+                      <p style={{color: `${prop.descColor}`}}>{prop.description}</p>
                     </Carousel.Caption>
                   </Carousel.Item>;
                 })}

@@ -3,6 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Carousel, Grid, Image, Jumbotron, Row, Col, Panel } from 'react-bootstrap';
+import { img } from './constant'
 
 class App extends Component {
 
@@ -86,90 +87,24 @@ class App extends Component {
       <div>
         <Grid md={10}>
           <Row>
-            <Jumbotron>
-              <h1>Hello, world!</h1>
+            <Jumbotron style={{ background: 'border-box' }}>
+              <h2>Ligar Mugi Syahid & Isma Rachmawati</h2>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component for calling
-                extra attention to featured content or information.
+                "Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah." (QS. 51:49)
+                  <br />
+                <p style={{ textAlign: 'center' }}>❤ Alhamdulillah, we are now officially husband and wife. ❤</p>
               </p>
+
               <Carousel>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389368/wedding/1.png" responsive/>
-                  <Carousel.Caption>
-                    {/* <h3>Tunangan tgl sekian</h3> */}
-                    {/* <p>fasdfasdfasdfasdfasdf</p> */}
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389347/wedding/2.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389339/wedding/3.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389335/wedding/4.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389333/wedding/5.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389346/wedding/6.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389342/wedding/7.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389333/wedding/8.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389332/wedding/9.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389342/wedding/10.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389343/wedding/11.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389346/wedding/12.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389352/wedding/13.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389348/wedding/14.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image style={{ margin: '0 auto'}} src="https://res.cloudinary.com/dhg9t661w/image/upload/c_scale,w_633/v1532389348/wedding/15.jpg" responsive />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
+                {img.map((prop, key) => {
+                  return <Carousel.Item>
+                    <Image style={{ margin: '0 auto' }} src={prop.src} responsive />
+                    <Carousel.Caption>
+                      <h3>{prop.title}</h3>
+                      <p>{prop.description}</p>
+                    </Carousel.Caption>
+                  </Carousel.Item>;
+                })}
               </Carousel>
             </Jumbotron>
           </Row>

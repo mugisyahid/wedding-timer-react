@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { Component, PropTypes } from 'react';
-import logo from './logo.svg';
+import moment from 'moment';
 import './App.css';
 import { Carousel, Grid, Image, Jumbotron, Row, Col, Panel } from 'react-bootstrap';
 import { img } from './constant'
@@ -20,7 +20,7 @@ class App extends Component {
   componentDidMount() {
     // update every second
     this.interval = setInterval(() => {
-      const date = this.calculateCountdown("2018-07-08T09:00:00.000");
+      const date = this.calculateCountdown();
       date ? this.setState(date) : this.stop();
     }, 1000);
   }
@@ -28,14 +28,10 @@ class App extends Component {
   componentWillMount() {
     this.stop();
   }
-  calculateCountdown(endDate) {
-    let diff = (Date.parse(new Date()) - Date.parse(new Date(endDate))) / 1000;
-
-    // clear countdown when date is reached
-    if (diff <= 0) return false;
-
+  calculateCountdown() {
     const timeLeft = {
       years: 0,
+      months: 0,
       days: 0,
       hours: 0,
       min: 0,
@@ -43,25 +39,15 @@ class App extends Component {
       millisec: 0,
     };
 
-    // calculate time difference between now and expected date
-    if (diff >= (365.25 * 86400)) { // 365.25 * 24 * 60 * 60
-      timeLeft.years = Math.floor(diff / (365.25 * 86400));
-      diff -= timeLeft.years * 365.25 * 86400;
-    }
-    if (diff >= 86400) { // 24 * 60 * 60
-      timeLeft.days = Math.floor(diff / 86400);
-      diff -= timeLeft.days * 86400;
-    }
-    if (diff >= 3600) { // 60 * 60
-      timeLeft.hours = Math.floor(diff / 3600);
-      diff -= timeLeft.hours * 3600;
-    }
-    if (diff >= 60) {
-      timeLeft.min = Math.floor(diff / 60);
-      diff -= timeLeft.min * 60;
-    }
-    timeLeft.sec = diff;
+    console.log(moment().startOf('month'))
 
+    // calculate time difference between now and expected date
+    timeLeft.years = moment().diff('2018-07-08', 'years');
+    timeLeft.months = moment().diff('2018-07-08', 'months');
+    timeLeft.days = moment().diff(moment().startOf('month'), 'days') + 1;
+    timeLeft.hours = moment().diff(moment().startOf('day'), 'hours') - 9; // 09:00 AM
+    timeLeft.min = moment().diff(moment().startOf('hour'), 'minutes');
+    timeLeft.sec =  moment().diff(moment().startOf('minute'), 'seconds');
     return timeLeft;
   }
 
@@ -117,6 +103,8 @@ class App extends Component {
               <Panel>
                 <Panel.Heading>We've been married for: </Panel.Heading>
                 <Panel.Body className={'text-center'}>
+                  <strong>{countDown.years} {'Years'} </strong>
+                  <strong>{countDown.months} {'Months'} </strong>
                   <strong>{countDown.days} {'Days'} </strong>
                   <strong>{countDown.hours} {'Hours'} </strong>
                   <strong>{countDown.min}  {'Minutes'} </strong>

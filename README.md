@@ -1,6 +1,6 @@
 # Wedding Timer
 
-[![CircleCI](https://circleci.com/gh/mugisyahid/wedding-timer-react.svg?style=svg)](https://circleci.com/gh/mugisyahid/wedding-timer-react) [![Build Status](https://travis-ci.org/mugisyahid/wedding-timer-react.svg?branch=master)](https://travis-ci.org/mugisyahid/wedding-timer-react)
+[![CircleCI](https://circleci.com/gh/mugisyahid/wedding-timer-react.svg?style=svg)](https://circleci.com/gh/mugisyahid/wedding-timer-react) [![Build Status](https://travis-ci.org/mugisyahid/wedding-timer-react.svg?branch=master)](https://travis-ci.org/mugisyahid/wedding-timer-react) [![Dependency status](https://david-dm.org/mugisyahid/wedding-timer-react.svg)](https://david-dm.org/mugisyahid/wedding-timer-react)  [![devDependency status](https://david-dm.org/mugisyahid/wedding-timer-react/dev-status.svg)](https://david-dm.org/mugisyahid/wedding-timer-react?type=dev)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
